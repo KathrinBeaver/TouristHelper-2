@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/InstructionPageContainer">
+
+    <TextView
+        android:id="@+id/helpID"
+        style="@style/WizardPageTitle"
+        android:text="@string/choose_option" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/text_one"
+                android:orientation="vertical"
+                style="@style/InstructionTextContainer">
+
+                <TextView
+                    style="@style/InstructionPageText"
+                    android:text="@string/if_you_want_to_use_offline_translator_please_install_dictionaries_otherwise_press_next" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Install Libraries"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

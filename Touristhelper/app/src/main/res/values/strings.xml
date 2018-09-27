@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Tourist helper</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="switch_light">Light</string>
+    <string name="switch_focus">Focus</string>
+
+
+    <string name="downloading">Downloading</string>
+    <string name="installing">Installing</string>
+    <string name="deleting">Deleting</string>
+    <string name="network_error">Network error</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="clear">Clear</string>
+    <string name="Copy">Copy</string>
+
+    <string name="choose_languages">Choose languages</string>
+    <string name="download_languages">Download languages</string>
+    <string name="skip">Skip</string>
+    <string name="install">Install</string>
+    <string name="apertium_desc">This applciation can translate offline. \nPlease install dictionaries, which you need.\n Internet Connection required</string>
+    <string name="prev_button_text">Previous</string>
+    <string name="next_button_text">Next</string>
+    <string name="final_text">Thank you</string>
+
+    <string name="submit_confirm_message">Are you happy with your choices?</string>
+    <string name="submit_confirm_button">OK</string>
+    <string name="finish">finish</string>
+    <string name="review">review</string>
+    <string name="help">Help</string>
+    <string name="description">Description</string>
+    <string name="choose_option">Choose option</string>
+    <string name="if_you_want_to_use_offline_translator_please_install_dictionaries_otherwise_press_next">If you want to use offline translator please install dictionaries. Otherwise press next</string>
+    <string name="connect">Connect</string>
+    <string name="wifi_connection">Wifi Connection</string>
+    <string name="application_for_tourist_get_info_easy">Application for tourist. Get info easy!</string>
+    <string name="email_to_developer">Email to developer</string>
+    <string name="communicate">Communicate</string>
+    <string name="setings">Set up offline dicts</string>
+    <string name="about">About</string>
+    <string name="more">More</string>
+    <string name="share">Share</string>
+    <string name="history">History</string>
+    <string name="translato">Text tool</string>
+    <string name="qr_reader">QR Reader</string>
+
+    <string name="finish_button">"Finish</string>
+    <string name="install_libraries">Install Dictionaries</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="help_titile">Help</string>
+    <string name="help_descr">This application allows you to conveniently work with QR codes. For some QR codes will be offered clear action. \nIn order to scan a QR code, you need to switch to QR code reader, point the camera at a QR code and when around the image frame will appear, you must click on the screen. \nTo work with text data, you may need to prepare the application, installing the offline dictionaries.</string>
+    <string name="calendar_event">Calendar Event</string>
+    <string name="add_event">Add event</string>
+    <string name="qr_code_content">QR-code content</string>
+    <string name="translate">Translate</string>
+    <string name="simplify">Simplify</string>
+    <string name="translate_and_simplify">Translate and simplify</string>
+    <string name="translate_btn">Execute</string>
+    <string name="choose_lang">Choose Lang</string>
+
+    <string name="aboutLibraries_description_showIcon">true</string>
+    <string name="aboutLibraries_description_showVersion">true</string>
+    <string name="aboutLibraries_description_text">Application for tourist. Get info easy!</string>
+</resources>

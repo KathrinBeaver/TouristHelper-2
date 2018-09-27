@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/InstructionPageContainer">
+
+    <TextView
+        android:id="@+id/helpID"
+        style="@style/WizardPageTitle"
+        android:text="@string/help_titile" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/text_one"
+                android:orientation="vertical"
+                style="@style/InstructionTextContainer">
+
+                <TextView
+                    style="@style/InstructionPageText"
+                    android:text="@string/help_descr" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

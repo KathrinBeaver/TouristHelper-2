@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/InstructionPageContainer">
+
+    <TextView
+        android:id="@+id/helpID"
+        style="@style/WizardPageTitle"
+        android:text="@string/choose_option" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/text_one"
+            style="@style/InstructionTextContainer"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/InstructionPageText"
+                android:text="@string/if_you_want_to_use_offline_translator_please_install_dictionaries_otherwise_press_next" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/wizard_install_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="alexeyAndrey"
+            android:text="@string/install_libraries"
+            android:textColor="@android:color/white"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>
